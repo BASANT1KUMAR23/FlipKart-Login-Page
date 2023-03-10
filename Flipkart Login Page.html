@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en-in">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipkart Login Page</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: gray;
+        }
+
+        .main-div {
+            display: grid;
+            grid-template-columns: 4fr 8fr;
+            margin-left: 300px;
+            margin-right: 250px;
+            margin-top: 30px;
+            width: 621px;
+            box-shadow: 1px 1px 12px 1px gray;
+        }
+
+        .div-1 {
+            background-color: #2874f0;
+            margin-left: -1px;
+            height: 530px;
+        }
+
+        .div-1 h1 {
+            margin-left: 40px;
+            margin-top: 30px;
+            color: #dbdbdb;
+            font-weight: bold;
+            font-size: 30px;
+        }
+
+        .span span {
+            color: #dbdbdb;
+            margin-left: 40px;
+            font-weight: bold;
+        }
+
+        div img {
+            margin-top: 170px;
+            margin-left: 30px;
+        }
+
+        .div-2 {
+            background-color: #ffff;
+            margin-right: 150px;
+            padding-right: 25px;
+        }
+
+        .div-3 input {
+            margin-top: 45px;
+            margin-left: 35px;
+        }
+
+        .p1 {
+            margin-left: 40px;
+            margin-top: 30px;
+            color: gray;
+            font-size: 11px;
+            font-weight: bold;
+        }
+
+        .p1 .p2 {
+            color: blue;
+        }
+
+        .p1 .p3 {
+            color: blue;
+        }
+
+        button {
+            margin-top: 40px;
+            margin-left: 40px;
+            border: 1px solid #fb641b;
+            background-color: #fb641b;
+            width: 320px;
+            padding: 10px;
+        }
+
+        button a {
+            text-decoration: none;
+            color: white;
+        }
+
+        button a:hover {
+            color: white;
+        }
+        .account{
+            margin-top: 250px;
+            margin-left: 50px;
+        }
+        .account a{
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-div">
+
+        <div class="div-1">
+            <div>
+                <h1>Login</h1>
+            </div>
+            <div class="span">
+                <span>Get access to your <br> <span>Orders, Wishlist and</span> <br><span> Recommendations</span></span>
+            </div>
+            <div>
+                <img src="public/flipkart image.PNG" alt="">
+            </div>
+        </div>
+
+        <div class="div-2">
+            <div>
+                <form action="">
+                    <div class="div-3">
+                        <input type="text" size="33" placeholder="Enter Email/Mobile number" required>
+                    </div>
+                    <div class="p1">
+                        <span>By continuing, you agree to Flipkart's <span class="p2">Terms of Use</span> and <span
+                                class="p3">Privacy Policy.</span></span>
+                    </div>
+                    <div>
+                        <button>
+                            <a href="#">Request OTP</a>
+                        </button>
+                    </div>
+                    <div class="account">
+                        <span>
+                            <a href="#">New to Flipkart? Create an account</a>
+                        </span>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
